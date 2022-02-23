@@ -32,14 +32,12 @@ div {
     margin: 0 auto;
     text-align: center;
 }
+
+
 .quote {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 2.5rem;
-
-    @media (max-width: 800px){
-        font-size: 0.5rem;
     }
-}
 
 .author {
     font-family: 'Crimson Text', serif;
@@ -53,4 +51,43 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.nav>a{
+    text-decoration: none;
+    font-family: 'Crimson Text', serif;
+    color: #333;
+    margin-inline: 1em;
+    font-size: 1rem;
+}
+
+.nav>a:hover{
+    transform: scale(2,2);
+    color: black;
+}
+
+
+@media (min-width: 1900px){
+    p {
+    
+        margin-block-start: 2em;
+
+    }
+}
+
+@media (max-width: 800px){
+        .quote {
+        font-size: 1rem;
+        }
+
+        .author {
+            
+            font-size: 0.5rem;
+            
+        }
+
+        .nav>a{
+            
+            font-size: 0.5rem;
+        }
 }
