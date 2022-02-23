@@ -1,1 +1,1 @@
-# C-Users-hoffn-Desktop-Webfejleszt-s-Projects-codeberry-simple-quote-page-mobile-first
+# simple-quote-page-mobile-first
